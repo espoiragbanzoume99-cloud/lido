@@ -1,56 +1,125 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <title>Listes</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="listes.css">
 </head>
-<body>
-    <header class="banniere">
-        <div class="logo-conteneur"><img src="ENEA.png" alt="ENEA.png" class="logo-img"></div>
-        <div class="titre-centre"><h1>Bienvenue sur mon site</h1><h2>FANTODJI Lidwine</h2></div>
-        <div class="logo-conteneur"><img src="Logo-UAC.png" alt="Logo-UAC.png" class="logo-img"></div>
-    </header>
-    <div class="conteneur-principal">
-        <nav class="menu-lateral">
-            <a href="#" class="btn-menu-principal">Menu</a>
-            <a href="TP1.html" class="btn-item">TP1</a>
-            <a href="TP2.html" class="btn-item">TP2</a>
-            <a href="tableau.html" class="btn-item">Tableau</a>
-            <a href="liste.html" class="btn-item active">Listes</a>
-            <a href="formulaire.html" class="btn-item">Formulaire</a>
-        </nav>
-        <main class="contenu-page">
-    <div class="carte-contenu">
-        <h3>Ma Liste de Choses à Faire</h3>
-        <p class="sous-titre">Suivi des étapes importantes de mon projet web.</p>
-        
-        <!-- Conteneur de la liste -->
-        <ul class="liste-moderne">
-            <li class="liste-item fait">
-                <span class="icone-statut">✓</span>
-                <span class="texte-item">Créer la structure HTML de base</span>
-            </li>
-            <li class="liste-item fait">
-                <span class="icone-statut">✓</span>
-                <span class="texte-item">Appliquer le design et les couleurs avec CSS</span>
-            </li>
-            <li class="liste-item en-cours">
-                <span class="icone-statut">➜</span>
-                <span class="texte-item">Intégrer le contenu des différentes rubriques</span>
-            </li>
-            <li class="liste-item a-faire">
-                <span class="icone-statut">○</span>
-                <span class="texte-item">Ajouter les logos officiels dans la bannière</span>
-            </li>
-            <li class="liste-item a-faire">
-                <span class="icone-statut">○</span>
-                <span class="texte-item">Tester le fonctionnement de tous les liens du menu</span>
-            </li>
-        </ul>
-    </div>
-</main>
 
-    </div>
+<body>
+
+    <h2>Quelques listes non ordonnées</h2>
+
+    <p>Voici une liste à puces non ordonnée sans modification (= <em>disc</em>) :</p>
+    <ul>
+        <li>Liste</li>
+        <li>à</li>
+        <li>puces</li>
+    </ul>
+
+    <p>Avec <em>circle</em> :</p>
+    <ul class="cercle">
+        <li>Liste</li>
+        <li>à</li>
+        <li>puces</li>
+    </ul>
+
+    <p>Avec <em>square</em> :</p>
+    <ul class="carre">
+        <li>Liste</li>
+        <li>à</li>
+        <li>puces</li>
+    </ul>
+
+    <p>Avec <em>none</em> (sans puces) :</p>
+    <ul class="rien">
+        <li>Liste</li>
+        <li>à</li>
+        <li>puces</li>
+    </ul>
+
+    <h2>Quelques listes ordonnées</h2>
+
+    <p>Liste ordonnée sans modification (= <em>decimal</em>) :</p>
+    <ol>
+        <li>Un</li>
+        <li>Deux</li>
+        <li>Trois</li>
+        <li>Quatre</li>
+    </ol>
+
+    <p>Avec <em>decimal-leading-zero</em> :</p>
+    <ol class="commence_a_zero">
+        <li>Un</li>
+        <li>Deux</li>
+        <li>Trois</li>
+        <li>Quatre</li>
+    </ol>
+
+    <p>Avec <em>lower-alpha</em> :</p>
+    <ol class="lettres_minuscules">
+        <li>Un</li>
+        <li>Deux</li>
+        <li>Trois</li>
+        <li>Quatre</li>
+    </ol>
+
+    <p>Avec <em>upper-roman</em> :</p>
+    <ol class="chiffres_romains">
+        <li>Un</li>
+        <li>Deux</li>
+        <li>Trois</li>
+        <li>Quatre</li>
+    </ol>
+
+    <p>Avec <em>lower-greek</em> :</p>
+    <ol class="lettres_grecques">
+        <li>Un</li>
+        <li>Deux</li>
+        <li>Trois</li>
+        <li>Quatre</li>
+    </ol>
+
+    <h2>Listes supplémentaires</h2>
+
+    <ul>
+        <li>Fraises</li>
+        <li>Framboises</li>
+        <li>Cerises</li>
+    </ul>
+
+    <ol>
+        <li>Je me lève</li>
+        <li>Je mange et je bois</li>
+        <li>Je retourne me coucher</li>
+    </ol>
+
+    <dl>
+        <dt>Chat</dt>
+        <dd>Animal à 4 pattes qui fait "Miaou !"</dd>
+
+        <dt>Chien</dt>
+        <dd>Animal à 4 pattes qui fait "Ouaf Ouaf !"</dd>
+
+        <dt>Prof de maths</dt>
+        <dd>Personne qui enseigne des choses que personne ne comprend</dd>
+    </dl>
+
+    <p>Voici une liste avec retrait :</p>
+    <ul class="retrait">
+        <li>Liste<br>à puces</li>
+        <li>Ligne 1<br>Ligne 2</li>
+        <li>Texte décalé</li>
+    </ul>
+
+    <p>Voici une liste sans retrait :</p>
+    <ul class="pas_de_retrait">
+        <li>Liste<br>à puces</li>
+        <li>Ligne 1<br>Ligne 2</li>
+        <li>Texte non décalé</li>
+    </ul>
+
 </body>
+
 </html>

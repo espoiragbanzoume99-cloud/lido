@@ -1,0 +1,100 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background: #f4f6f9;
+    padding: 20px;
+    color: #222;
+}
+
+/* TITRES */
+h2 {
+    text-indent: 20px;
+    margin: 20px 0 10px;
+    color: #1e3a8a;
+}
+
+/* TEXTES */
+p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+em {
+    background-color: yellow;
+}
+
+strong {
+    color: red;
+}
+
+/* LISTES NON ORDONNÉES */
+ul {
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+
+.cercle {
+    list-style-type: circle;
+}
+
+.carre {
+    list-style-type: square;
+}
+
+.rien {
+    list-style-type: none;
+}
+
+/* LISTES ORDONNÉES */
+ol {
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+
+.commence_a_zero {
+    list-style-type: decimal-leading-zero;
+}
+
+.lettres_minuscules {
+    list-style-type: lower-alpha;
+}
+
+.chiffres_romains {
+    list-style-type: upper-roman;
+}
+
+.lettres_grecques {
+    list-style-type: lower-greek;
+}
+
+/* DL */
+dl {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #1e3a8a;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+/* RETRAIT */
+.retrait li {
+    margin-left: 20px;
+}
+
+.pas_de_retrait li {
+    margin-left: 0;
+}

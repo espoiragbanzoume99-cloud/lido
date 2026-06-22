@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 20px 15px;
+    background-color: #1a1a2e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* TITRE MENU */
+.menu-title {
+    background-color: #ff007f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* CONTAINER LIENS */
+.menu-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* BOUTONS */
+.btn-nav {
+    background-color: #0084ff;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: block;
+    transition: all 0.3s ease;
+}
+
+/* HOVER */
+.btn-nav:hover {
+    background-color: #00f2fe;
+    color: #1a1a2e;
+    transform: scale(1.03);
+}

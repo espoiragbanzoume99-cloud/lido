@@ -42,8 +42,8 @@ body {
 
 .titre-centre h2 {
     font-size: 16px;
-    opacity: 0.9;
     font-weight: normal;
+    opacity: 0.9;
 }
 
 /* CONTENEUR */
@@ -52,14 +52,13 @@ body {
     min-height: calc(100vh - 110px);
 }
 
-/* MENU (SANS FOND) */
+/* MENU */
 .menu-lateral {
     width: 220px;
     padding: 20px;
-    background: transparent; /* important */
 }
 
-/* bouton MENU */
+/* MENU TITLE */
 .btn-menu-principal {
     display: block;
     text-align: center;
@@ -70,7 +69,7 @@ body {
     font-size: 18px;
 }
 
-/* BOUTONS TP */
+/* ITEMS */
 .btn-item {
     display: block;
     background: #1e3a8a;
@@ -82,7 +81,10 @@ body {
     transition: 0.3s;
 }
 
-/* hover simple */
+.btn-item.active {
+    background: #00a2ff;
+}
+
 .btn-item:hover {
     background: #0f2c6e;
     transform: translateX(5px);
@@ -101,24 +103,22 @@ body {
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-.carte-contenu h3 {
+.carte-contenu h3,
+.carte-contenu h4 {
     color: #1e3a8a;
     margin-bottom: 10px;
 }
 
-/* RESPONSIVE */
-@media (max-width: 768px) {
-    .conteneur-principal {
-        flex-direction: column;
-    }
+.carte-contenu p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
 
-    .menu-lateral {
-        width: 100%;
-    }
-
-    .banniere {
-        flex-direction: column;
-        text-align: center;
-        gap: 10px;
-    }
+/* BLOCKQUOTE */
+blockquote {
+    background: #eef2ff;
+    border-left: 5px solid #1e3a8a;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
 }
